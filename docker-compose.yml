@@ -1,0 +1,12 @@
+version: '3'
+services:
+  oracle-ee:
+    container_name: oracle-ee
+    image: sath89/oracle-12c
+    ports:
+      - 1521:1521
+    volumes:
+      - oracle-ee-data:/u01/app/oracle
+volumes:
+  oracle-ee-data:
+    external: true

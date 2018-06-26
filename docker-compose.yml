@@ -3,6 +3,7 @@ services:
   oracle-ee:
     container_name: oracle-ee
     image: sath89/oracle-12c
+    restart: always
     ports:
       - 1521:1521
     volumes:

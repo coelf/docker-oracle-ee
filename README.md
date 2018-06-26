@@ -15,14 +15,15 @@ docker compose for oracle entreprise edition database
 
 
 ## db info
-
-hostname: localhost
-port: 1521
-sid: xe
-service name: xe
-username: system
-password: oracle
+|                |             |
+|----------------|-------------|
+|hostname:       |localhost    |
+|port:           |1521         |
+|sid:            |xe           |
+|service name:   |xe           |
+|username:       |system       |
+|password:       |oracle       |
 
 ### To connect using sqlplus:
-sqlplus system/oracle@//localhost:1521/xe
+`sqlplus system/oracle@//localhost:1521/xe`
 
